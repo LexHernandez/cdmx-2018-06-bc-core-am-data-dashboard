@@ -13,60 +13,32 @@
 
 <body>
   <div class="container">
-    <div class="row">
-      <!-- <img id="pink-arrow" src="../img/Laboratoria_corchetes-26 (1) (1).png" -->
-      <!-- <img src="../img/arrowspink.png" class="img-fluid" alt="Responsive image">-->
+    <main>
+      <section class="row justify-content-md-center">
 
-      <div class="wrapper" id="login-wrapper">
-        <img src="../img/logoLaboratoriasmall.png" class="img-fluid" alt="Responsive image">
+        <section class="col-sm-6 col-md-8 align-self-center mr-3" id="wrapper-first">
+          <img src="../img/logoLaboratoriasmall.png" class="img-fluid" alt="Responsive image">
 
+          <form>
+            E-mail
+            <input class="shadow p-3 mb-5 bg-white rounded" type="email" id="user-capture" name="email">
+          </form>
 
-        <form>
-          E-mail
-          <input class="shadow p-3 mb-5 bg-white rounded" type="email" id="userCapture" name="email">
-         </form>
+          <form>
+            Password
+            <input class="shadow p-3 mb-5 bg-white rounded" type="password" id="password-capture" name="psw">
+          </form>
 
-        <form>
-          Password
-          <input class="shadow p-3 mb-5 bg-white rounded" type="password" id="passwordCapture" name="psw">
-        </form>
+          <a class="btn btn-dark" id="submit-button" role="button">Enviar</a>
+          <!-- <button id="login-button" class="btn btn-dark">Iniciar Session</button> -->
 
-        <button id="login-button" class="btn btn-dark">Iniciar Session</button>
+          <span class="psw">Forgot
+            <a href="#">password?</a>
 
-        <span class="psw">Forgot
-          <a href="#">password?</a>
-        </span>
-      </div>
-
-
-      <div class="wrapper" id="select-wrapper">
-        <img src="../img/logoLaboratoriasmall.png" class="img-fluid" alt="Responsive image">
-
-        <form>
-          Sede
-          <select class="shadow p-3 mb-5 bg-white rounded" id="selectCampus">
-            <option value="">Lima</option>
-            <option value="">México</option>
-            <option value="">Santiago</option>
-            <option value="none" disabled selected hidden>Escoge una sede...</option>
-          </select>
-        </form>
-
-        <form>
-          Generación
-          <select class="shadow p-3 mb-5 bg-white rounded" id="selectGen">
-            <option value="">6ta generación</option>
-            <option value="">5ta generación</option>
-            <option value="">4ta generación</option>
-            <option value="none" disabled selected hidden>Escoge una generación...</option>
-          </select>
-        </form>
-
-        <a class="btn btn-dark" id="submit-button" href="page2.html" role="button">Enviar</a>
-
-      </div>
-
-    </div>
+          </span>
+        </section>
+        </section>
+    </main>
   </div>
 
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -75,9 +47,7 @@
     crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
     crossorigin="anonymous"></script>
-  <script src="data.js"></script>
-  <script src="main.js"></script>
-  <script src="login.js"></script>
+  <script src="js/login.js"></script>
 </body>
 
 </html>
