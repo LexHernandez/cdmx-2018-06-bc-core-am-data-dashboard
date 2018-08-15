@@ -1,10 +1,7 @@
-
 body {
   max-width: 100%;
   background-color: #ffe421;
-
 }
-
 #wrapper-first {
   display: grid;
   padding: 3%;
@@ -57,97 +54,4 @@ input[type=password]{
 
 #wrapper-first {
   display: block;
-}
-
-/* 
-#select-wrapper {
-  display: none;
-} */
-
-.table {
-  background-color: white;
-  height: 150%;
-  width: 30%;
-  margin: 20px 25px;
-  font-size: 130%;
-}
-
-/* PAGE 2 */
-
-.navbar {
-  margin-bottom: 0;
-  border-radius: 0;
-  font-size: 100%;
-}
-
-/* Set height of the grid so .sidenav can be 100% (adjust as needed) */
-
-.row.content {
-  height: 450px
-}
-
-/* Set gray background color and 100% height */
-
-.sidenav {
-  margin-right: 25px;
-  padding-top: 20px;
-  background-color: white;
-  height: 159%;
-  font-size: 130%;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(255, 248, 248, 0.19);
-}
-
-/* On small screens, set height to 'auto' for sidenav and grid */
-
-@media screen and (max-width: 767px) {
-  .sidenav {
-    height: auto;
-    padding: 15px;
-  }
-  .row.content {
-    height: auto;
-    display: block;
-  }
-}
-
-#sidebarLinks {
-  text-align: left;
-  color: black;
-  padding: 0;
-}
-
-.card {
-  box-shadow: 3px 5px 8px 4px rgba(0, 0, 0, 0.2);
-  border-radius: 5px;
-  /* 5px rounded corners */
-}
-
-.sidebar-form {
-  margin: 0% 10%;
-  padding-top: 20%;
-  font-size: 88%;
-}
-
-#sidebar-submit-button {
-  margin-bottom: 50%;
-  background-color: rgba(0, 0, 0, 0.794);
-  color: white;
-  font-size: 95%;
-  font-weight: bold;
-}
-
-#divA {
-  background-color: white;
-  padding: 20px;
-  margin: 25px;
-}
-
-#divB {
-  background-color: white;
-  padding: 20px;
-  margin: 25px;
-}
-
-.none {
-  display: none;
 }
